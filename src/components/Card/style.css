@@ -45,4 +45,8 @@
     flex-direction:row;
     width:100%;
     padding-left:25%;
+    padding-top:5%;
+    background:url("water2.jpg") no-repeat center fixed;
+    background-size:cover;
+    height:300px;
 }
