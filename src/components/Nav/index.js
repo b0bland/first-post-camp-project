@@ -18,7 +18,7 @@ render ()
 
 return(
 <div>
-	<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav className="sticky navbar navbar-expand-lg navbar-dark bg-dark">
 	  <a className="navbar-brand" href="#">Economy SF</a>
 	  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	    <span className="navbar-toggler-icon"></span>
