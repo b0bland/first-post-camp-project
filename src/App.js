@@ -5,12 +5,12 @@ import Home from './pages/Home'
 import Services from './pages/Services'
 import About from './pages/About'
 import Footer from './components/Footer'
-
-
 import './App.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faHome, faBuilding, faWrench, faCalculator } from '@fortawesome/free-solid-svg-icons'
 
-
-
+library.add(fab, faHome, faBuilding, faWrench, faCalculator)
 
 class App extends React.Component {
 

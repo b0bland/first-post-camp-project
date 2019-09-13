@@ -15,7 +15,7 @@ function Footer () {
                 <img src = {logo} alt ="better business bureau" id="bbb-logo"/>
             </div>
             <div id = "copyright">
-                2019 Copyright© Economy Plumbing. All Rights Reserved.
+            © 2019 Copyright Economy Plumbing. All Rights Reserved.
             </div>
         </footer>
     </div>
