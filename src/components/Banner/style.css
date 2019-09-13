@@ -1,0 +1,40 @@
+#bannerContainer
+{
+	text-align: center;
+	min-height: 100vh;
+	padding-top: 5%;
+
+}
+
+#bannerContainer h1
+{
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+#bannerContainer p
+{
+	font-size: 1.5rem;
+}
+
+.jumbotron
+{
+	background-color: transparent;
+	min-height: 110vh;
+	color: white;
+
+}
+
+#iconBanner
+{
+	width: 2vm !important;
+	border-radius: 50%;
+	border: 0.2rem solid white;
+}
+
+#iconBanner img
+{
+	width: 100%;
+	padding: 8%;
+}
+
