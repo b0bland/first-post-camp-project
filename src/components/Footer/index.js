@@ -4,7 +4,7 @@ import logo from './bbb-logo.png'
 
 function Footer () {
     return (
-    <div>
+    <div id="footer">
         <footer> 
             <div id = "company-content">
                 <p> License #707695 </p>

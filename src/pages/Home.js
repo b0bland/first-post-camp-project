@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
+import Banner from '../components/Banner';
 class Home extends React.Component {
 
     render (){
         return (
             <React.Fragment>
+          	<Banner />  
 			<div id="services-block">
 				<div class="card">
 						<FontAwesomeIcon icon="home" id="home"/>
@@ -30,6 +30,7 @@ class Home extends React.Component {
 					</div>
 				</div>
             </React.Fragment>
+
         )
     }
 }
