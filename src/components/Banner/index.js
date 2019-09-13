@@ -20,7 +20,7 @@ function Banner () {
                 </div>
                     <div className = "row">
                 <div className = "col-12 d-flex justify-content-center">
-             <p className="lead">All your plumbing needs</p>
+             <p className="lead">Affordable Plumber you can rely on!</p>
              </div>
                 </div>
 
