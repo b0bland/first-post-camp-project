@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import ServicesTabs from '../components/ServicesTab'
 
 
 function Services() {
@@ -7,7 +8,7 @@ function Services() {
 		<div>
 			<h1> Services </h1>
 			<span id= "line"/>
-
+			<ServicesTabs/>
 		</div>
 		)
 }

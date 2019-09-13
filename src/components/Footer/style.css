@@ -1,8 +1,8 @@
 #footer {
-    bottom:0;
     background-color:#2f2e2e;
     color:white;  
     width:100%;  
+    position: absolute;
 }
 
 #copyright {
@@ -21,7 +21,8 @@
 }
 
 #bbb-logo {
-    width:8%;
+    width:4%;
+    margin-bottom:13px;
 }
 
 #bbb {
