@@ -1,3 +1,6 @@
+.navbar-dark {
+    background-color: #313131 !important;
+}
 .sticky
 {
 	top: 0;
@@ -6,7 +9,3 @@
 	padding: 1%;
 	z-index: 20;
 }
-
-
-
-
