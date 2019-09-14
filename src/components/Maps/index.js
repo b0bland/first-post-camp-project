@@ -2,7 +2,7 @@ import React,  { Component }  from "react";
 import './style.css';
 import { Map, GoogleApiWrapper, Polygon} from 'google-maps-react';
 
-class Maps extends Component {
+class MapContainer extends Component {
     render () {
         const polyCoords = [
             { lat: 37.811078, lon: -122.477195},
@@ -41,3 +41,7 @@ class Maps extends Component {
         )
     }
 }
+
+export default GoogleApiWrapper({
+    apiKey: (YOUR_GOOGLE_API_KEY_GOES_HERE)
+  })(MapContainer)
