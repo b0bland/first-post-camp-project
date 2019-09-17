@@ -26,15 +26,15 @@ export class MapContainer extends Component {
         ];
 
         const mapStyles = {
-            width: '80%',
-            height: '700px',
-            position: 'relative'
+            width: '100%',
+            height: '300px',
+            position: 'relative'            
           };
 
         return (
             <Map 
             google={this.props.google} 
-            zoom={11}
+            zoom={9.5}
             className={'map'} 
             initialCenter={{ lat: 37.749587, lng: -122.393602}} 
             style={mapStyles} >
@@ -44,7 +44,7 @@ export class MapContainer extends Component {
                     strokeOpacity={0.8}
                     strokeWeight={2}
                     fillColor="#ff1500"
-                    fillOpacity={0.35} />
+                    fillOpacity={0.35} id="map"/>
             </Map>
         )
     }
