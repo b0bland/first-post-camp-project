@@ -1,6 +1,6 @@
 import React,  { Component }  from "react";
 import './style.css';
-import { Map, GoogleApiWrapper, Polygon} from 'google-maps-react';
+import { Map, GoogleApiWrapper, Polygon } from 'google-maps-react';
 
 class MapContainer extends Component {
     render () {
@@ -43,5 +43,5 @@ class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: (YOUR_GOOGLE_API_KEY_GOES_HERE)
+    apiKey: (AIzaSyD94-FinXRu-cn8wyT2g1ORtYFofTlBMwU)
   })(MapContainer)
