@@ -1,8 +1,9 @@
 #footer {
     background-color:#2f2e2e;
     color:white;  
-    width:100%;  
-    position: absolute;
+    width:100%;
+    position: relative;
+    bottom:0;
 }
 
 #copyright {

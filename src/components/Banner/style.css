@@ -1,7 +1,6 @@
 #bannerContainer
 {
 	text-align: center;
-	min-height: 100vh;
 	padding-top: 5%;
 
 }
@@ -20,7 +19,6 @@
 .jumbotron
 {
 	background-color: transparent;
-	min-height: 110vh;
 	color: white;
 
 }

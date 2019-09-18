@@ -24,7 +24,9 @@ class App extends React.Component {
         <Route exact path='/services' component={Services} />
         <Route exact path='/about' component={About} /> 
       </Switch>
+      <div id="bottom">
       <Footer/>
+      </div>
       </div>
     </Router>
   );
