@@ -1,0 +1,55 @@
+#coupon
+{
+	background-color: white;
+	padding-bottom: 5%;
+}
+
+.coupontitle
+{
+	padding-top: 5%;
+}
+
+#coupon h1
+{
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#coupon line
+{
+	 stroke:rgb(0,0,0);
+	 stroke-width:5;
+}
+
+#coupon svg
+{
+	width: 2.5%;
+}
+
+
+
+.card-img-overlay
+{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	opacity: 0;
+	transition: 0.5s ease all 0.1s;
+}
+
+.card-img-overlay:hover
+{
+	opacity: 1;
+	transition: 0.5s ease all 0.1s;
+}
+
+.card
+{
+	width: 100% !important;
+}
+
+.col-4
+{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
